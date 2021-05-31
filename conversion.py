@@ -58,7 +58,6 @@ def def_for_distance():
         yards = input('Convert yards to Meters: ')
 
         if yards.isnumeric():
-            if yards.isnumeric():
                 save_yards = int(yards)
                 print(yards / 1.094)
             else:
@@ -142,6 +141,7 @@ def def_for_weight():
         print(enterNumbers)
 
         tonne = input('Convert Tonnes to Grams: ')
+        
         if tonne.isnumeric():
             tonne_save = int(tonne)
             print(tonne_save / 1000000)
@@ -163,6 +163,7 @@ def def_for_weight():
         print(enterNumbers)
 
         ounce = input('Convert Onces to Grams: ')
+        
         if ounce.isnumeric():
             save_ounce = int(ounce)
             print(save_ounce * 28.35)

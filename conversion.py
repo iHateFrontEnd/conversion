@@ -26,7 +26,7 @@ def def_for_distance():
 
         if cm.isnumeric():
             save_cm = int(cm)
-            print()
+            print(save_cm / 100)
         else:
             def_for_distance()
     elif distance == 'inch' or distance == 'inches' or distance == 'in':
@@ -59,9 +59,9 @@ def def_for_distance():
 
         if yards.isnumeric():
                 save_yards = int(yards)
-                print(yards / 1.094)
-            else:
-                def_for_distance()
+                print(save_yards / 1.094)
+        else:
+            def_for_distance()
     elif distance == 'mm' or distance == 'milimeter' or distance == 'milimeters':
         #convert milimeters
         print(enterNumbers)
@@ -70,7 +70,7 @@ def def_for_distance():
 
         if mm.isnumeric():
             save_mm = int(mm)
-            print(mm / 1000)  
+            print(save_mm / 1000)  
         else:
             def_for_distance() 
     elif distance == 'mile' or distance == 'miles' or distance == 'mi':
@@ -122,7 +122,7 @@ def def_for_weight():
 
         if mg.isnumeric():
             save_mg = int(mg)
-            print(mg / 1000)
+            print(save_mg / 1000)
         else:
             def_for_weight()
     elif weight == 'microgram' or weight == 'micrograms' or weight == 'mcg':
@@ -207,7 +207,7 @@ def def_for_liquid():
 
         if ml.isnumeric():
             save_ml = int(ml)
-            print(ml / 1000)
+            print(save_ml / 1000)
         else:
             def_for_liquid()
     elif liquid == 'cubic meter' or liquid == 'cubic meters':
@@ -229,7 +229,7 @@ def def_for_liquid():
 
         if gallon.isnumeric():
             save_gallon = int(gallon)
-            print(gallon * 3.785)
+            print(save_gallon * 3.785)
         else:
             def_for_liquid()
     elif liquid == 'cubic inch' or liquid == 'cubic inches':
@@ -251,7 +251,7 @@ def def_for_liquid():
 
         if cubic_feet.isnumeric():
             save_cubic_feet = int(cubic_feet)
-            print(cubic_feet / 28.317)
+            print(save_cubic_feet / 28.317)
         else:
             def_for_liquid()
 
